@@ -1,0 +1,37 @@
+# My cheat sheet for MYSQL
+# Access my server
+# $mysql -u root -p
+#
+#Show my Databases
+# mysql> show databases;
+#
+# Create database
+# mysql> CREATE database <dbname>;
+#
+#Connect to the new or existing dbname
+# mysql> use <dbname>
+#
+#Create tables...
+# mysql> create table <table name you want>(id INT, name VARCHAR(20), email VARCHAR(40));
+#
+#show the tables
+# mysql> show tables;
+#
+#Switch to table and Insert rows into table
+# mysql> use <dbname>
+# mysql> INSERT INTO employee (id, name, email) Values (1, "tony", "tony@xxx@xyz.com");
+# mysql> INSERT INTO <tablename> (id,name,bn) Value(1, "Unix config", "xyz321");
+#
+# Select from the Table
+# mysql> SELECT * from <tablename whatever you called it>
+#
+#Now you can run the incert command to add additional rows with values.
+#
+#Where clause (this is like a if condition)
+#Example
+# mysql> SELECT * from <tablename> Where id=1;
+# mysql> SELECT name,email from <tablename> Where id>1;
+#
+#More notes to come :)
+#
+
